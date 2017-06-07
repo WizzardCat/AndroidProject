@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,14 +20,121 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_next" />
+    <include layout="@layout/content_next"/>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:textSize="40sp"
+        android:text="@string/bonjour"
+        android:id="@+id/bonjour"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginStart="22dp"
+        />
 
-</android.support.design.widget.CoordinatorLayout>
+    <TextView
+        android:id="@+id/pseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_alignBaseline="@+id/bonjour"
+        android:layout_alignEnd="@+id/order"
+        android:layout_marginEnd="22dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginStart="150dp"
+
+        tools:text="test" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/qteCf"
+        android:id="@+id/qtéCafé"
+        android:layout_alignTop="@+id/bonjour"
+        android:layout_alignStart="@+id/bonjour"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="65dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/moins"
+        android:id="@+id/moins"
+        android:layout_alignTop="@+id/bonjour"
+        android:layout_alignStart="@+id/bonjour"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="65dp"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/plus"
+        android:id="@+id/plus"
+        android:layout_alignBottom="@+id/moins"
+        android:layout_marginRight="22dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="22dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/chantilly"
+        android:layout_alignTop="@+id/bonjour"
+        android:layout_alignStart="@+id/bonjour"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="65dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:text="@string/Total"
+        android:id="@+id/total"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="ORDER"
+        android:id="@+id/order"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_alignBottom="@+id/total"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp" />
+
+
+
+</RelativeLayout>

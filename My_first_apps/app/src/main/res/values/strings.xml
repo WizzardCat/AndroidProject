@@ -2,5 +2,12 @@
     <string name="app_name">My_first_apps</string>
     <string name="title_activity_next">Next</string>
     <string name="pseudo">pseudo</string>
+    <string name="Total">Total de</string>
+    <string name="bonjour">bonjour</string>
+    <string name="qteCf">Quantité de café</string>
+    <string name="chantilly">Chantilly</string>
+    <string name="moins">-</string>
+    <string name="plus">+</string>
+
 
 </resources>

@@ -31,7 +31,7 @@
         android:textSize="40sp"
         android:text="SEND"
         android:id="@+id/button1"
-        android:layout_margin="140dp"
+        android:layout_margin="100dp"
         android:layout_gravity="bottom|center_horizontal"
 
         />

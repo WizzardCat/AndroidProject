@@ -17,10 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".NextActivity" />
+
         <activity
             android:name=".Next"
             android:label="@string/title_activity_next"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>
