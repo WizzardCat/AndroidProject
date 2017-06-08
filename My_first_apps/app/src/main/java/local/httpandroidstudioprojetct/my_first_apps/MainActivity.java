@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
 
             // Instant non-durable pop-up
-                Toast toast = Toast.makeText(getApplicationContext(), myText.getText(), Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(getApplicationContext(), "Bienvenu ", Toast.LENGTH_LONG);
                 toast.show();
 
                 Intent myIntent = new Intent(MainActivity.this, NextActivity.class);

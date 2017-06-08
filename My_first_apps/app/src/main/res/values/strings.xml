@@ -8,6 +8,9 @@
     <string name="chantilly">Chantilly</string>
     <string name="moins">-</string>
     <string name="plus">+</string>
+    <string name="euro">€</string>
+    <string name="zero">0</string>
+    <string name="qteCh">Quantité de Chocolat</string>
 
 
 </resources>
